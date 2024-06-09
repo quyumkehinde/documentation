@@ -46,7 +46,6 @@ metadata:
 spec:
   image: "ghcr.io/spinkube/containerd-shim-spin/examples/spin-rust-hello:v0.14.1"
   replicas: 1
-  runtime: "containerd-shim-spin"
 ```
 
 > SpinApp CRDs are kept separate from Helm. If using Helm, CustomResourceDefinition (CRD) resources must be installed prior to installing the Helm chart.
